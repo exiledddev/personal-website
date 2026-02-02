@@ -286,6 +286,7 @@ body {
 }
 
 .header.desc-box {
+	width:57%;
 	background: var(--glass-bg);
 	backdrop-filter: blur(5px);
 	-webkit-backdrop-filter: blur(5px);
@@ -295,7 +296,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 10px 124px;
+	padding: 10px 0px;
 	cursor: pointer;
 	position: relative;
 	overflow: hidden;
@@ -309,7 +310,6 @@ body {
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 0.7);
-	
 }
 
 .header.desc-box p {
